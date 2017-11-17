@@ -17,19 +17,24 @@ header{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 1rem;
 }
 .container{
   max-width: 960px;
   margin: auto;
+  display: flex;
 }
 nav{
   background-color: cadetblue;
   color: white;
-
 }
 nav div {
   display: flex;
   align-items: center;
+  padding: 1rem 0;
+}
+.logo{
+  flex-grow: 1;
 }
 .logo img{
   height: 1.5rem;
